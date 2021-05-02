@@ -35,15 +35,15 @@ run : This command is use to run a instance of the conatiner.
 # Use interactive bash
 docker exec -it <image_name> /bin/bash
 
-exec :This command is used to execute the running container.
--it : This tells docker that we want to run in interactive mode.
-<image_name>: The image_name which you have provdided in earlier command.
-/bin/bash: This tells docker that you will be executing with help of bash.
+###exec :This command is used to execute the running container.
+###-it : This tells docker that we want to run in interactive mode.
+###<image_name>: The image_name which you have provdided in earlier command.
+###/bin/bash: This tells docker that you will be executing with help of bash.
 
 # Enter MySQL prompt:
 mysql -upucsd -ppucsd
 
-mysql : to enter mysql shell
+###mysql : to enter mysql shell
 ###-upucsd : we want to enter mysql using user as pucsd.
 ###-ppucsd : the password for the user 'pucsd' is 'pucsd'.
 

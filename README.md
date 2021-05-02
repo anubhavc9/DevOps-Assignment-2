@@ -52,3 +52,6 @@ use pucsdStudents: This tells that we want to use datbase pucsdStudents.
 
 # To see the content of the table 'StudentData':
 select * from studentData; : Inorder to view all the table.
+
+# Refer the following video for detailed explanation:
+https://youtu.be/w_aVnMmrASE

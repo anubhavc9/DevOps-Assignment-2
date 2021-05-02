@@ -44,8 +44,8 @@ exec :This command is used to execute the running container.
 mysql -upucsd -ppucsd
 
 mysql : to enter mysql shell
--upucsd : we want to enter mysql using user as pucsd.
--ppucsd : the password for the user 'pucsd' is 'pucsd'.
+###-upucsd : we want to enter mysql using user as pucsd.
+###-ppucsd : the password for the user 'pucsd' is 'pucsd'.
 
 # Use Database pucsdStudents:
 use pucsdStudents: This tells that we want to use datbase pucsdStudents.

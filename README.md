@@ -41,11 +41,11 @@ exec :This command is used to execute the running container.
 /bin/bash: This tells docker that you will be executing with help of bash.
 
 # Enter MySQL prompt:
-mysql -upucsd -ppucsd
+mysql -upucsd -ppucsd\
 
-mysql : to enter mysql shell
--upucsd : we want to enter mysql using user as pucsd.
--ppucsd : the password for the user 'pucsd' is 'pucsd'.
+mysql : to enter mysql shell\
+-upucsd : we want to enter mysql using user as pucsd.\
+-ppucsd : the password for the user 'pucsd' is 'pucsd'.\
 
 # Use Database pucsdStudents:
 use pucsdStudents: This tells that we want to use datbase pucsdStudents.

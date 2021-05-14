@@ -23,8 +23,8 @@ build : this instruction is used to build the image according to the dockerfile\
 -t <container_name> : option to provide tagname according to the user's requirement. If using -t then provide image name whatever to your liking.\
 path : path of the directory where the dockerfile is present. If your working in the same directory.
 
-# Run Image:
-docker run -d --name <image_name> -p 3306 <container_name>
+# Create a container from this image:
+docker run -d --name <container_name> -p 3306:3306 <image_name>
 
 run : This command is use to run a instance of the conatiner.\
 -d : This option tells to run the image in detach mode.\
@@ -32,7 +32,7 @@ run : This command is use to run a instance of the conatiner.\
 -p 3306 : This tells that the host machine will connect to the conatiner through 3306 port.\
 <container_name> : The container name which you have given in the above command.
 
-# Use interactive bash
+# Execute the container (use interactive bash):
 docker exec -it <image_name> /bin/bash
 
 exec :This command is used to execute the running container.\

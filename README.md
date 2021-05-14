@@ -17,7 +17,7 @@ Root password is set as 'pucsd'.
 # Build Image:
 Note : If there is error of permission denied add sudo at start of instruction conatining docker as command in it or you can also become super user(This note is for LINUX user).
 
-docker build -t <container_name> path
+docker build -t <image_name> <path_to_Dockerfile>
 
 build : this instruction is used to build the image according to the dockerfile\
 -t <container_name> : option to provide tagname according to the user's requirement. If using -t then provide image name whatever to your liking.\

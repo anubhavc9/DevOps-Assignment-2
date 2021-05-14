@@ -8,7 +8,7 @@ This file contains schema of database and few insert queries for demo.
 # Dockerfile:
 This file has instruction for creation of the image with follwing things:
 
-Student Schema provided in schema.sql.
+Student Schema provided in test.sql.
 Database named pucsdStudents.
 User named as 'pucsd' and password as 'pucsd'.
 Root password is set as 'pucsd'.

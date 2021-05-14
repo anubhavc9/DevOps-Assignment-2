@@ -33,7 +33,7 @@ run : This command is use to run a instance of the conatiner.\
 <container_name> : The container name which you have given in the above command.
 
 # Execute the container (use interactive bash):
-docker exec -it <image_name> /bin/bash
+docker exec -it <container_name> /bin/bash
 
 exec :This command is used to execute the running container.\
 -it : This tells docker that we want to run in interactive mode.\
